@@ -1,14 +1,14 @@
-#AIBtoYNABCsvConverter
+# AIBtoYNABCsvConverter
 A python script to take the export file produced by Allied Irish Bank (AIB) and convert into a format that can be imported into [YNAB](https://www.youneedabudget.com) (short for You Need a Budget)
 
-##Installation
+## Installation
 
 To install dependencies run
 ```
 pip install -r requirements.txt
 ```
 
-##Running the script
+## Running the script
 
 To run the script execute 
 ```
