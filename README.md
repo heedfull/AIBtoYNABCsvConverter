@@ -17,4 +17,4 @@ python script.py
 
 Script relies on the file to be converted in the same directory and named `input.csv`
 
-The script produces a file name `output.csv`
+The script produces a file named `output.csv`
