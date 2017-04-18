@@ -1,7 +1,12 @@
 import pandas as pd
+import easygui
+
+file = easygui.fileopenbox("Select a file", "AIB to YNAB CSV Convertor", filetypes = ["*.csv"])
+
+print(file)
 
 # create pandas dataframe by reading in the file input.csv
-df=pd.read_csv("input.csv")
+df=pd.read_csv(file)
 
 cols_to_keep = [' Posted Transactions Date',' Description1',' Debit Amount',' Credit Amount']
 
